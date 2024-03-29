@@ -1,0 +1,36 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\tome\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add ethers@5
+
+PATH: 
+  C:\Ruby32-x64\bin;C:\Python311\Scripts\;C:\Python311\;C:\Program Files\Java\zulu17.44.15-ca-jdk17.0.8-win_x64\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64\compiler;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\;C:\Users\tome\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\tome\.console-ninja\.bin;C:\Users\tome\.cargo\bin;C:\Users\tome\AppData\Local\Microsoft\WindowsApps;C:\Users\tome\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Users\tome\AppData\Roaming\npm;C:\Users\tome\AppData\Roaming\nvm;C:\Program Files\nodejs
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  20.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'C:\Users\tome\workspace\tokenized-real-estate\node_modules\@nomicfoundation\solidity-analyzer-win32-x64-msvc\solidity-analyzer.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "hardhat-project",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+      "hardhat": "^2.22.2"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.9.3",
+      "ethers": "^6.11.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
